@@ -2,6 +2,7 @@ import pytest
 from selene import browser
 from selenium import webdriver
 
+
 @pytest.fixture(scope="session", autouse=True)
 def browser_setup():
     options = webdriver.ChromeOptions()

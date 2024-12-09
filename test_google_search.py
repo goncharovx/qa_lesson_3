@@ -1,5 +1,5 @@
-from selene.api import s
 from selene import browser, have, be
+from selene.api import s
 
 
 def test_google_open():
